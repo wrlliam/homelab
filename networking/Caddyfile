@@ -1,0 +1,10 @@
+(cloudflare) {
+	tls {
+		dns cloudflare {env.CF_API_TOKEN}
+	}
+}
+
+# jptr.cloud {
+# 	reverse_proxy localhost:8080
+# 	import cloudflare
+# }
